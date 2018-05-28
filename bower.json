@@ -1,0 +1,6 @@
+{
+  "name": "locegra",
+  "dependencies": {
+    "materialize": "^0.100.2"
+  }
+}

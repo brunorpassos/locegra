@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet/css" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     {{content-for "head"}}
 
@@ -16,22 +17,14 @@
     {{content-for "head-footer"}}
   </head>
   <body class="lcg-background-color">
-    <nav class="navbar navbar-expand-lg navbar-light lcg-navbar-background fixed-top">
-      <a class="navbar-brand" href="#">Locegra</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav btn-group">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
+    <nav class="lcg-nav-background">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Logo</a>
+        <ul id="nav-mobile" class="left">
+          <li><a><i class="material-icons">menu</i></a></li>
+        </ul>
+        <ul id="nav-mobile" class="right">
+          <li><a class="lcg-nav-contact lcg-nav-font-size" href="badges.html">Contato</a></li>
         </ul>
       </div>
     </nav>
