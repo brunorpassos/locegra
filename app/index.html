@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet/css" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     {{content-for "head"}}
 
@@ -15,37 +16,73 @@
 
     {{content-for "head-footer"}}
   </head>
-  <body class="lcg-background-color">
-    <nav class="navbar navbar-expand-lg navbar-light lcg-navbar-background fixed-top">
-      <a class="navbar-brand" href="#">Locegra</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav btn-group">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <body>
+    <div class="lcg-navbar">
+      <ul class="lcg-navbar-items">
+        <li class="lcg-nav-menu-icon"><a href="#"><i class="material-icons small">menu</i></a></li>
+        <li class="lcg-nav-logo"><a href="#">LOGO</a></li>
+        <li class="lcg-nav-contact"><a href="#">Contato</a></li>
+      </ul>
 
-    <div class="container">
-      {{content-for "body"}}
-
-      <script src="{{rootURL}}assets/vendor.js"></script>
-      <script src="{{rootURL}}assets/locegra.js"></script>
-
-      {{content-for "body-footer"}}
-      <div class="lcg-footer">
-
+    <div class="lcg-parallax lcg-actuation-image">
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis e caminhões</h1>
+        <h3 class="lcg-actuation-text">Atuamos na área de perícia veícular elaborando
+          pareceres e laudos com a finalidade de auxiliar na resolução de conflitos judiciais.
+          Contamos com profissionais com amplo conhecimento no segmento automobilístico.</h3>
       </div>
     </div>
+    <div class="lcg-about-us">
+      <h1>Quem Somos?</h1>
+      <div class="about-us-container">
+        <div class="about-us-card">
+          <div class="about-us-photo"></div>
+        </div>
+        <div class="about-us-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+      <div class="about-us-container about-us-reverse">
+        <div class="about-us-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="about-us-card">
+          <div class="about-us-photo"></div>
+        </div>
+      </div>
+      <div class="about-us-container">
+        <div class="about-us-card">
+          <div class="about-us-photo"></div>
+        </div>
+        <div class="about-us-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    </div>
+
+    <div class="lcg-parallax lcg-about-us-image">
+      <div class="lcg-background-opacity"></div>
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis</h1>
+        <h3 class="lcg-actuation-text">Atuamos realizando assistência pericial em processos judiciais.</h3>
+      </div>
+    </div>
+    <div class="lcg-about-us">
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+    <div class="lcg-parallax lcg-about-the-job-image">
+      <div class="lcg-background-opacity"></div>
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis</h1>
+        <h3 class="lcg-actuation-text">Atuamos realizando assistência pericial em processos judiciais.</h3>
+      </div>
+    </div>
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/locegra.js"></script>
+
+    {{content-for "body-footer"}}
   </body>
 </html>

@@ -1,0 +1,47 @@
+@import './default_styles.scss';
+
+.lcg-about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $primary-color-text;
+  margin-top: 2rem;
+}
+
+.about-us-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem 0;
+    flex-wrap: wrap;
+}
+
+.about-us-card {
+  display: flex;
+  justify-content: space-around;
+  width: 26rem;
+}
+
+.about-us-photo {
+  width: 20rem;
+  height: 32rem;
+  background-color: $primary-color-text;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.about-us-description {
+  display: flex;
+  width: 38rem;
+  align-self: center;
+  text-align: center;
+  color: $primary-color-text;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.about-us-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
