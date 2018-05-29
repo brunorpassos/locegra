@@ -17,28 +17,56 @@
     {{content-for "head-footer"}}
   </head>
   <body class="lcg-background-color">
-    <nav class="lcg-nav-background">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Logo</a>
-        <ul id="nav-mobile" class="left">
-          <li><a><i class="material-icons">menu</i></a></li>
-        </ul>
-        <ul id="nav-mobile" class="right">
-          <li><a class="lcg-nav-contact lcg-nav-font-size" href="badges.html">Contato</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav class="lcg-nav-background">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Logo</a>
+          <ul id="nav-mobile" class="left">
+            <li><a><i class="material-icons">menu</i></a></li>
+          </ul>
+          <ul id="nav-mobile" class="right">
+            <li><a class="lcg-nav-contact lcg-nav-font-size" href="badges.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-    <div class="container">
-      {{content-for "body"}}
 
-      <script src="{{rootURL}}assets/vendor.js"></script>
-      <script src="{{rootURL}}assets/locegra.js"></script>
-
-      {{content-for "body-footer"}}
-      <div class="lcg-footer">
-
+    <div class="lcg-parallax lcg-actuation-image">
+      <div class="lcg-background-opacity"></div>
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis</h1>
+        <h3 class="lcg-actuation-text">Atuamos realizando assistência pericial em processos judiciais.</h3>
       </div>
     </div>
+    <div class="lcg-about-us">
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+    <div class="lcg-parallax lcg-about-us-image">
+      <div class="lcg-background-opacity"></div>
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis</h1>
+        <h3 class="lcg-actuation-text">Atuamos realizando assistência pericial em processos judiciais.</h3>
+      </div>
+    </div>
+    <div class="lcg-about-us">
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+    <div class="lcg-parallax lcg-about-the-job-image">
+      <div class="lcg-background-opacity"></div>
+      <div class="lcg-atuation-area">
+        <h1 class="lcg-actuation-title">Perícias em automóveis</h1>
+        <h3 class="lcg-actuation-text">Atuamos realizando assistência pericial em processos judiciais.</h3>
+      </div>
+    </div>
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/locegra.js"></script>
+
+    {{content-for "body-footer"}}
   </body>
 </html>
