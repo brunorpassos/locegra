@@ -27,8 +27,12 @@
 .about-us-photo {
   width: 20rem;
   height: 32rem;
-  background-color: $primary-color-text;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .about-us-description {
@@ -44,4 +48,8 @@
 .about-us-reverse {
     display: flex;
     flex-wrap: wrap-reverse;
+}
+
+.rpm-photo {
+  background-image: url('/assets/images/rpm-photo.jpg');
 }
