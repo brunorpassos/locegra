@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('institutional', {path: '/'});
+  this.route('portal', {path: '/portal-informativo'});
 });
 
 export default Router;
