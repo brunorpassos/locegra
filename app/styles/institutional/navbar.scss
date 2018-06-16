@@ -1,5 +1,13 @@
 @import '../default_styles.scss';
 
+.lcg-navbar {
+  transition: transform 0.3s;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .lcg-navbar-items {
   display: flex;
   justify-content: space-between;

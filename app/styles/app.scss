@@ -2,21 +2,17 @@
 @import './default_styles.scss';
 @import './institutional/navbar.scss';
 @import './institutional/about_us.scss';
+@import './institutional/actuation_area.scss';
 @import './portal/portal_container.scss';
 @import './portal/portal_navbar.scss';
 @import './portal/portal_content.scss';
-
-* {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  text-decoration: none;
-}
 
 .lcg-actuation-image {
   background-image: url('/assets/images/black-and-white-car-classic-474-2.jpg');
 }
 
 .lcg-about-us-image {
-  background-image: url('/assets/images/tractor-by-sunset-1240327-bw2.jpg');
+  background-image: url('/assets/images/tractor-385681_1920.jpg');
 }
 
 .lcg-about-the-job-image {

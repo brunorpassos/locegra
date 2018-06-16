@@ -1,6 +1,6 @@
-<div class="lcg-navbar">
+<div class="lcg-navbar" id="lcg-navbar-scroll">
   <ul class="lcg-navbar-items">
-    <li class="lcg-nav-menu-icon"><a href="#"><i class="material-icons small">menu</i></a></li>
+    <li class="lcg-nav-menu-icon"><a href="#"><i class="material-icons md-18">menu</i></a></li>
     <li class="lcg-nav-logo"><a href="#">LOGO</a></li>
     <li class="lcg-nav-contact"><a href="#teste">Contato</a></li>
   </ul>
@@ -10,10 +10,24 @@
   <div class="lcg-parallax lcg-actuation-image">
     <div class="lcg-actuation-area">
       <div class="lcg-actuation-content lcg-container">
-        <h1 class="lcg-actuation-title">Perícias em Engenharia Mecânica e Assistência Técnica Judicial</h1>
-        <p class="lcg-actuation-text">Atuamos nas áreas de perícias que envolvem equipamentos
-          mecânicos de diversas naturezas.Elaboramos pareceres e laudos com a finalidade de auxiliar na resolução de conflitos judiciais.
-          Contamos com profissionais com amplo conhecimento no segmento automobilístico.</p>
+        <h1 class="lcg-actuation-title">Avaliações, perícias, e assistência técnica judicial em Engenharia Mecânica</h1>
+
+        <div class="lcg-actuation-list">
+          <ul>
+            <li>Avaliações</li>
+            <li>Perícias</li>
+            <li>Tempo de vida</li>
+            <li>Noix</li>
+          </ul>
+
+          <ul>
+            <li>Avaliações</li>
+            <li>Perícias</li>
+            <li>Tempo de vida</li>
+            <li>Noix</li>
+          </ul>
+        </div>
+
         </div>
       </div>
     </div>
@@ -22,6 +36,24 @@
 <section>
   <div class="lcg-about-us">
     <h1>Quem Somos?</h1>
+    <div class="about-us-container about-us-reverse">
+      <div class="about-us-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="about-us-card">
+        <div class="about-us-photo"></div>
+      </div>
+    </div>
+
+    <div class="about-us-container">
+      <div class="about-us-card">
+        <div class="about-us-photo"></div>
+      </div>
+      <div class="about-us-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
     <div class="about-us-container">
       <div class="about-us-card">
         <div class="about-us-photo"><img src="/assets/images/rpm-photo.jpg" alt="Rafael Pontes Marques Foto"></div>
@@ -37,22 +69,7 @@
         </div>
       </div>
     </div>
-    <div class="about-us-container about-us-reverse">
-      <div class="about-us-description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-      <div class="about-us-card">
-        <div class="about-us-photo"></div>
-      </div>
-    </div>
-    <div class="about-us-container">
-      <div class="about-us-card">
-        <div class="about-us-photo"></div>
-      </div>
-      <div class="about-us-description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
+
   </div>
 </section>
 
@@ -83,3 +100,16 @@
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("lcg-navbar-scroll").style.transform = "translateY(0)";
+    } else {
+      document.getElementById("lcg-navbar-scroll").style.transform = "translateY(-50px)";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
