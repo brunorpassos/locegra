@@ -9,6 +9,10 @@
 @import './portal/portal_navbar.scss';
 @import './portal/portal_content.scss';
 
+body {
+  font-family: helvetica;
+}
+
 .lcg-actuation-image {
   background-image: url('/assets/images/black-and-white-car-classic-474-2.jpg');
 }
