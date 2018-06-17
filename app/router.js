@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('institutional', {path: '/'});
+  this.route('portal', {path: '/portal-informativo'}, function() {
+    this.route('engineering_evaluation', {path: 'eng-de-avaliacoes'});
+  });
 });
 
 export default Router;
