@@ -10,10 +10,11 @@
 @import './portal/portal_content.scss';
 
 html {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 body {
   font-family: helvetica;
+  overflow-x: hidden;
 }
 
 .lcg-actuation-image {
