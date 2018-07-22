@@ -4,7 +4,7 @@ $primary-color:        rgba(8, 72, 135, 1);
 $primary-color-light:  rgba(158, 173, 189, 1);
 $primary-color-text:   #faebd7;
 $accent-color:         rgba(249, 249, 249, 1);
-$background-color:   #212121;
+$background-color:     #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
 
@@ -22,5 +22,6 @@ p {
 }
 
 .lcg-container {
+  margin: 0 auto;
   max-width: 968px;
 }

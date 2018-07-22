@@ -5,12 +5,17 @@
 @import './institutional/contact_us.scss';
 @import './institutional/menu.scss';
 @import './institutional/actuation_area.scss';
+@import './institutional/automotive_expert.scss';
 @import './portal/portal_container.scss';
 @import './portal/portal_navbar.scss';
 @import './portal/portal_content.scss';
 
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: helvetica;
+  overflow-x: hidden;
 }
 
 .lcg-actuation-image {
@@ -46,7 +51,7 @@ body {
 
 .lcg-about-us {
   background-color: $background-color;
-  font-size:36px;
+  font-size: 36px;
 }
 
 .institutional-container {
