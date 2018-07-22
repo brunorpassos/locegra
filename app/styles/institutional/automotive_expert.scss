@@ -1,0 +1,10 @@
+@import '../default_styles.scss';
+
+.lcg-automotive-expert-analysis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: $primary-color-text;
+}
