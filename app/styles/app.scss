@@ -31,7 +31,7 @@ body {
 }
 
 .lcg-parallax {
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body {
   align-items: center;
   color: $primary-color-text;
   z-index: 20;
-  height: 90%;
+  height: 100%;
   flex-direction: column;
   text-align: center;
 }
