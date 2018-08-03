@@ -66,11 +66,15 @@
     margin-right: 2rem;
     font-size: 2rem;
     a {
+      display: flex;
+      align-self: center;
       color: $primary-color-text;
       text-decoration: none;
     }
     span {
-      font-size: 2rem;
+      font-size: 1.6rem;
+      display: flex;
+      align-self: center;
     }
   }
 }
