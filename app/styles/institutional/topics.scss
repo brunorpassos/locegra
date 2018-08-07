@@ -1,10 +1,6 @@
 @import '../default_styles.scss';
 
-.lcg-actuation-image {
-  background-image: url('/assets/images/rktkn-77442-unsplash-65.jpg');
-}
-
-.lcg-actuation-area {
+.lcg-topics-area {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +11,7 @@
   text-align: center;
 }
 
-.lcg-actuation-content {
+.lcg-topics-content {
 	display: flex;
 	min-height: 100vh;
 	justify-content: center;
@@ -23,11 +19,11 @@
 	align-items: center;
 }
 
-.lcg-actuation-title {
+.lcg-topics-title {
 	margin: 5rem 1rem 1rem;
 }
 
-.lcg-actuation-list {
+.lcg-topics-list {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
@@ -43,7 +39,7 @@
 	}
 }
 
-.lcg-actuation-list-item {
+.lcg-topics-list-item {
 	margin: 1.5rem 0;
 	font-size: 1.2rem;
 	display: flex;
