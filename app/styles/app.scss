@@ -18,10 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-.lcg-actuation-image {
-  background-image: url('/assets/images/black-and-white-car-classic-474-2.jpg');
-}
-
 .lcg-about-us-image {
   background-image: url('/assets/images/tractor-385681_1920.jpg');
 }
@@ -30,24 +26,18 @@ body {
   background-image: url('/assets/images/german-65.jpg');
 }
 
+.lcg-equipment-expert-image {
+  background-image: url('/assets/images/rktkn-77442-unsplash-65.jpg');
+}
+
 .lcg-parallax {
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.lcg-actuation-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $primary-color-text;
-  z-index: 20;
-  height: 90%;
-  flex-direction: column;
-  text-align: center;
-}
 
 .lcg-about-us {
   background-color: $background-color;

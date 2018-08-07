@@ -1,28 +1,56 @@
-.lcg-actuation-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 5rem;
+@import '../default_styles.scss';
 
-  ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex
-  }
-
-  ul li {
-  }
+.lcg-actuation-image {
+  background-image: url('/assets/images/rktkn-77442-unsplash-65.jpg');
 }
 
-.lcg-actuation-list-item {
-  margin: 1.5rem 0;
-  font-size: 1.2rem;
+.lcg-actuation-area {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: $primary-color-text;
+  z-index: 20;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lcg-actuation-content {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lcg-actuation-title {
+	margin: 5rem 1rem 1rem;
+}
+
+.lcg-actuation-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+
+	ul {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: flex
+	}
+
+	ul li {
+	}
+}
+
+.lcg-actuation-list-item {
+	margin: 1.5rem 0;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .lcg-list-cog {
-  padding: 0.5rem;
+	padding: 0.5rem;
 }
