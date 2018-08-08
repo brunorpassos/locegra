@@ -1,3 +1,18 @@
 .lcg-vehicle-analysis-image {
   background-image: url('/assets/images/black-and-white-car-classic-474.jpg');
 }
+
+.lcg-vehicle-analysis-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.lcg-vehicle-analysis-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  color: red;
+}
