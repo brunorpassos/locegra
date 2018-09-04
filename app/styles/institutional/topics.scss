@@ -9,6 +9,10 @@
   height: 100%;
   flex-direction: column;
   text-align: center;
+
+  h1 {
+    margin: 3rem;
+  }
 }
 
 .lcg-topics-content {
@@ -41,7 +45,6 @@
 
 .lcg-topics-list-item {
 	margin: 1.5rem 0;
-	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;

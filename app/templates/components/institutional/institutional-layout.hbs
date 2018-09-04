@@ -98,7 +98,7 @@
         <div class="lcg-topics-list">
           <ul>
             <li class="lcg-topics-list-item"><i class="material-icons lcg-list-cog">settings</i>Segurança antes de investir em um bem seminovo</li>
-            <li class="lcg-topics-list-item"><i class="material-icons lcg-list-cog">settings</i>Consulta em base nacional de dados para determinar se o veículo possui sinistro histórico de furto ou roubo, fraude NP Finan ou algo que possa aumentar o risco da operação para você cliente</li>
+            <li class="lcg-topics-list-item"><i class="material-icons lcg-list-cog">settings</i>Consulta em base nacional de dados para determinar se o veículo possui sinistro histórico de furto ou roubo, algum indício de fraude ou algo que possa aumentar o risco da operação para você.</li>
             <li class="lcg-topics-list-item"><i class="material-icons lcg-list-cog">settings</i>Inspeção do veículo por engenheiros capacitados e treinados em determinar tanto o valor do bem, quanto sua qualidade como produto</li>
             <li class="lcg-topics-list-item"><i class="material-icons lcg-list-cog">settings</i>Conhecimento dos veículos no mercado com acessoria sobre vícios conhecidos</li>
           </ul>
@@ -111,19 +111,24 @@
 
 <section class="lcg-vehicle-analysis-steps">
   <div class="lcg-container lcg-vehicle-analysis-container">
-    <h3>Atendemos o cliente em três possíveis etapas. Lembrando que o cliente pode escolher se deseja continuar com  uma inspeção presencial após a consulta em banco de dados.</h3>
-    <div class="lcg-vehicle-analysis-step">
-      <span class="lcg-step-number">1</span>
-      <p class="lcg-step-description">Busca em bancos de dados para determinar histórico do veículo</p>
+    <h3>Realizamos nosso atendimento em três passos:</h3>
+    <div class='procedure-steps'>
+      <div class="lcg-analysis-steps">
+        <div class="lcg-vehicle-analysis-step">
+          <span class='lcg-bar-step'>1</span>
+          <p class="lcg-step-description">Pesquisa em bancos de dados para auxiliar com histórico do veículo, decodificar chassis, verificar restrições, existência de sinistro, Gravame etc. Mas cuidado, é importante lembrar que as informações podem NÃO estar completamente atualizadas pois existem diversos problemas tanto na comunicação de sinistros quanto em atualização de dados por parte do governo.</p>
+        </div>
+        <div class="lcg-vehicle-analysis-step">
+          <span class='lcg-bar-step'>2</span>
+          <p class="lcg-step-description">Caso o cliente queira optar por uma análise minusciosa, nossos engenheiros podem realizar uma inspeção presencial do veículo, reduzindo o risco de problemas futuros. É realizada a inspeção mecânica de diversos componentes do veículo, bem como a checagem da numeração de componentes críticos que podem ter sido trocados(transmissão, motor, chassis etc.). Para determinar se o veículo já sofreu alguma colisão, realizamos a análise da funilaria com aparelho que determina a espessura da camada de revestimento da tinta, e com isso, caso o veículo tenha sofrido algum impacto e tenha sido reparado, é possível determinar aonde foi a colisão bem como se o serviço de reparo foi feito de forma apropriada.</p>
+        </div>
+        <div class="lcg-vehicle-analysis-step">
+          <span class='lcg-bar-step'>3</span>
+          <p class="lcg-step-description">Emitimos um laudo para o cliente com as conclusões que tiramos da análise, além de oferecer ao cliente toda a informação que coletamos a respeito do veículo.</p>
+        </div>
+      </div>
     </div>
-    <div class="lcg-vehicle-analysis-step">
-      <span class="lcg-step-number">2</span>
-      <p class="lcg-step-description">Caso os dados do veículo estejam nos padrões desejados pelo cliente, pode ser solicitada uma inspeção presencial (verificaremos disponibilidade para a região solicitada)</p>
-    </div>
-    <div class="lcg-vehicle-analysis-step">
-      <span class="lcg-step-number">3</span>
-      <p class="lcg-step-description">Emissão do laudo completo feito pelos engenheiros</p>
-    </div>
+
   </div>
 </section>
 
@@ -172,7 +177,7 @@
     </div>
     <div class="lcg-contact-us-content">
       <div class="lcg-contact-description">
-        <p>Entre em contato conosco para falar os paranaue</p>
+        <p>Caso tenha alguma dúvida ou deseje contratar nossos serviços, entre em contato conosco.</p>
       </div>
       <div class="lcg-contact-form">
         <form class="lcg-contact-us-form">
@@ -204,7 +209,7 @@
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("lcg-navbar-scroll").style.transform = "translateY(0)";
     } else {
-      document.getElementById("lcg-navbar-scroll").style.transform = "translateY(-50px)";
+      document.getElementById("lcg-navbar-scroll").style.transform = "translateY(-70px)";
     }
     prevScrollpos = currentScrollPos;
   }

@@ -1,18 +1,54 @@
+@import '../default_styles.scss';
+
 .lcg-vehicle-analysis-image {
   background-image: url('/assets/images/black-and-white-car-classic-474.jpg');
 }
 
-.lcg-vehicle-analysis-steps {
+.lcg-vehicle-analysis-step {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.lcg-analysis-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height:90vh;
 }
 
 .lcg-vehicle-analysis-container {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: $primary-color-text;
+}
+
+.lcg-bar-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-weight: 600;
+}
+
+.procedure-steps {
+  display: flex;
   flex-direction: row;
-  color: red;
+  min-height: 18rem;
+  justify-content: space-evenly;
+}
+
+.lcg-step-description {
+  padding: 0 2rem;
+  line-height: 1.5;
+  max-width: 80%;
 }
